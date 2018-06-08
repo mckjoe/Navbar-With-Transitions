@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+    <title>dropdown navbar</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Logo</h1>
+      <!--  make sure to put input before the <nav>
+      using id to match the "for" in a label, and a class for the css because of its less specificity -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+  </body>
+</html>
