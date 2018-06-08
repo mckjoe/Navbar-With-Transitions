@@ -140,7 +140,7 @@ nav a:hover {
   }
   nav a {
     opacity: 1;
-    /* position: relative; */
+    position: relative;
   }
   nav a::before {
     content: '';
